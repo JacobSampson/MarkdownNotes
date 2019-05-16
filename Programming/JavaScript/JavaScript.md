@@ -138,7 +138,7 @@ De-structured Assignment
 ### General
 
 ```JavaScript
-`typeof <var>`
+typeof <var>
 .name // Original name of function
 ```
 
