@@ -64,8 +64,16 @@ UFW: Uncomplicated Firewall
 
 ### HTTP Server and TLS
 
-Apache 2: [Guide](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04)
+Apache 2: [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04)  
+Setup virtual hosts: [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04#step-5-%E2%80%94-setting-up-virtual-hosts-(recommended))  
+Secure Apache2: [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
 
-Setup virtual hosts: [Guide](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04#step-5-%E2%80%94-setting-up-virtual-hosts-(recommended))
+Several name-based web sites: [apache.org](https://httpd.apache.org/docs/2.4/vhosts/examples.html)
 
-Secure Apache2: [Guide](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
+Reroute to `www` *and* `https`
+```
+RewriteEngine on
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule (.*) https://www.example.com%{REQUEST_URI} [R=301,L]
+```
