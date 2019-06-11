@@ -314,8 +314,66 @@ Entities
 
 ```html
 
+accept-charset	Specifies the charset used in the submitted form (default: the page charset).
+action	Specifies an address (url) where to submit the form (default: the submitting page).
+autocomplete	Specifies if the browser should autocomplete the form (default: on).
+enctype	Specifies the encoding of the submitted data (default: is url-encoded).
+method	Specifies the HTTP method used when submitting the form (default: GET).
+name	Specifies a name used to identify the form (for DOM usage: document.forms.name).
+novalidate	Specifies that the browser should not validate the form.
+target	Specifies the target of the address in the action attribute (default: _self).
 
+Elements
 
+<form>	Defines an HTML form for user input
+<input>	Defines an input control
+<textarea>	Defines a multiline input control (text area)
+<label>	Defines a label for an <input> element
+<fieldset>	Groups related elements in a form
+<legend>	Defines a caption for a <fieldset> element
+<select>	Defines a drop-down list
+<optgroup>	Defines a group of related options in a drop-down list
+<option>	Defines an option in a drop-down list
+<button>	Defines a clickable button
+<datalist>	Specifies a list of pre-defined options for input controls
+<output>	Defines the result of a calculation
 
+Input Types
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+Input Restrictions
+
+disabled	Specifies that an input field should be disabled
+max	Specifies the maximum value for an input field
+maxlength	Specifies the maximum number of character for an input field
+min	Specifies the minimum value for an input field
+pattern	Specifies a regular expression to check the input value against
+readonly	Specifies that an input field is read only (cannot be changed)
+required	Specifies that an input field is required (must be filled out)
+size	Specifies the width (in characters) of an input field
+step	Specifies the legal number intervals for an input field
+value	Specifies the default value for an input field
 
 ```

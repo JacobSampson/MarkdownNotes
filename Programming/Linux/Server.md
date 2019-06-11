@@ -77,3 +77,6 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule (.*) https://www.example.com%{REQUEST_URI} [R=301,L]
 ```
+
+`sudo chown -R www-data:www-data /var/www` ?  
+Edit domain-le-ssl.conf if changing source folder, after creating SSL certificate
