@@ -1,7 +1,7 @@
 # Markdown Notes
 
 
-### **Author** Jacob Sampson | **Last Updated** 1/1/2019
+### **Author** *Jacob Sampson* | **Last Updated** *6/17/2019*
 ##### *Notes taken on various subjects in Markdown*
 
 ---
