@@ -31,6 +31,7 @@ app.directive("newDirective", function() {
 `ng-repeat`: repeats element `"el in elements"`  
 `ng-show`: visibility  
 `ng-click`: bind function to click  
+`ng-if`: if function  
 
 {{ expression }}
 
@@ -42,14 +43,14 @@ Restrict directions with property 'restrict: E: element, A: attribute, C: class,
 
 `ng-model`: bind value of an input field  
 
-*Adds the following*
+*Adds the following CSS classes*
 - `ng-empty`
 - `ng-not-empty`
-- `ng-touched`
-- `ng-untouched`
+- `ng-touched`: been in focus
+- `ng-untouched`: not been in focus
 - `ng-valid`
 - `ng-invalid`
-- `ng-dirty`
+- `ng-dirty`: changed
 - `ng-pending`
 - `ng-pristine`
 
@@ -59,7 +60,7 @@ Restrict directions with property 'restrict: E: element, A: attribute, C: class,
 var app = angular.module('app', []);
 app.controller('newController', function() {
     
-});
+}); 
 )
 ```
 
@@ -143,8 +144,86 @@ app.controller('newCtrl', function($scope, $http) {
 
 ### Tables
 
-`$index`  
-$
+*In the HTML*
+- `$index`
+- `$odd`
+- `$even`
+
+### Dropdowns
+
+`x.field for x in array`  
+`x.field for (x, y) in object`  
+
+### Forms
+
+```
+Input fields have the following states:
+
+    $untouched The field has not been touched yet
+    $touched The field has been touched
+    $pristine The field has not been modified yet
+    $dirty The field has been modified
+    $invalid The field content is not valid
+    $valid The field content is valid
+
+Forms have the following states:
+
+    $pristine No fields have been modified yet
+    $dirty One or more have been modified
+    $invalid The form content is not valid
+    $valid The form content is valid
+    $submitted The form is submitted
+```
+*CSS classes*
+
+```
+The following classes are added to, or removed from, input fields:
+
+    ng-untouched The field has not been touched yet
+    ng-touched The field has been touched
+    ng-pristine The field has not been  modified yet
+    ng-dirty The field has been modified
+    ng-valid The field content is valid
+    ng-invalid The field content is not valid
+    ng-valid-key One key for each validation. Example: ng-valid-required, useful when there are more than one thing that must be validated
+    ng-invalid-key Example: ng-invalid-required
+
+The following classes are added to, or removed from, forms:
+
+    ng-pristine No fields has not been modified yet
+    ng-dirty One or more fields has been modified
+    ng-valid The form content is valid
+    ng-invalid The form content is not valid
+    ng-valid-key One key for each validation. Example: ng-valid-required, useful when there are more than one thing that must be validated
+    ng-invalid-key Example: ng-invalid-required
+
+```
+
+### Includes
+
+`ng-include="'file.html'"`: includes the HTML from another file
+
+### Routing
+
+`<ng-view></ng-view>`
+
+```javascript
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+  $routeProvider
+  .when("/", {
+    templateUrl : "main.htm"
+  })
+  .when("/london", {
+    templateUrl : "london.htm",
+    controller : "londonCtrl"
+  })
+  .when("/paris", {
+    templateUrl : "paris.htm",
+    controller : "parisCtrl"
+  });
+});
+```
 
 ---
 
