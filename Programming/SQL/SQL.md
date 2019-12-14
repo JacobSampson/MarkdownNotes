@@ -1,25 +1,7 @@
-SQL <!-- omit in toc -->
+SQL
 =======
 
-- [Overview](#overview)
-  - [Statements](#statements)
-- [Fundamental Concepts](#fundamental-concepts)
-  - [Tables](#tables)
-- [Relationships](#relationships)
-  - [JOIN](#join)
-- [Strings](#strings)
-  - [Functions](#functions)
-- [Numbers](#numbers)
-  - [Types](#types)
-  - [Functions](#functions-1)
-- [Dates and Times](#dates-and-times)
-  - [Format](#format)
-  - [Functions](#functions-2)
-- [Aggregates](#aggregates)
-- [Transactions](#transactions)
-- [Triggers](#triggers)
-- [Views and Sub selects](#views-and-sub-selects)
-- [Defined Functions](#defined-functions)
+[TOC]
 
 ---
 

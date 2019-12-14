@@ -11,7 +11,7 @@
 [Helpful.md](/Programming/Helpful.md) Various helpful commands and things to remember
 
 ### **Java**
-[Algorithms.md](/Programming/Java/Algorithms.md) Algorithm concepts in Java | ***Added** 1/1/2019*
+[Algorithms.md](Programming/Java/Algorithms.md) Algorithm concepts in Java | ***Added** 1/1/2019*
 
 ### **JavaScript**
 [JavaScript.md](/Programming/JavaScript/JavaScript.md) Basics of JavaScript | ***Added** 1/1/2019*

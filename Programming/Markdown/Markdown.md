@@ -70,7 +70,7 @@ A <a href="http://www.yahoo.com">link</a> in HTML.
 
 A [reference link][example].
 
-  [example]: http://example.com
+[example]: http://example.com
 
 A [relative reference to a file](../blob/master/LICENSE)
 
@@ -90,14 +90,14 @@ I think you should use an
 `<addr>` element here instead.
 
 ## Code
-    
+
     Indenting by four spaces (tab) marks a segment as code
 
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s

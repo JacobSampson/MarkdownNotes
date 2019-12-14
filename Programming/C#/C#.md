@@ -5,7 +5,9 @@
 ### Basics
 CLR (Common Language Runtime): manages the application
 - Memory management
-- Operating system and hardware independence
+- 
+- [Algorithms.md](Programming/Java/Algorithms.md) Algorithm concepts in Java | ***Added** 1/1/2019*
+
 - Language independence
 
 FCL (Framework class library)
@@ -36,7 +38,7 @@ byte
 Console.Write() / Console.WriteLine()  
 Console.ReadLine()
 - ..."{var}"), var)
-- "0x{0:X}": hexadecimal
+- "{0:X}": hexadecimal
 
 ### Conversion
 int.Parse()  
@@ -80,6 +82,7 @@ using
 
 delegate: type for referencing methods (+= or -=)  
 event: delegate forcing addition of subscribers
+
 - (object sender, EventArgs args) using 'this' for sender
 
 ## Tests
@@ -100,3 +103,4 @@ interface
 Building a standard GUI for Windows based applications using WinForms.
 Developing scalable applications using multithreading features of .NET
 ```
+

@@ -345,3 +345,4 @@ angular.bootstrap()	Starts AngularJS manually
 angular.element()	Wraps an HTML element as an jQuery element
 angular.module()	Creates, registers, or retrieves an AngularJS module
 ```
+
