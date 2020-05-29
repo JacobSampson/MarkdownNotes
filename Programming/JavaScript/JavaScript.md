@@ -107,7 +107,7 @@ Nested arrays
 - Can pass in a function as the parameter
 - Return to assign to element
 
-`.reduce((accumulator, currentValue) => { ... }, <initial value>`
+`.reduce((accumulator, currentValue) => { ... }, <initial value>)`
 
 ### Objects
 
@@ -130,6 +130,8 @@ Getters and Setters
 
 De-structured Assignment  
 `<var> { <field> } = <obj>`
+
+`Object.assign(object, fields)`
 
 ---
 
@@ -204,3 +206,9 @@ String Interpolation
 ```JavaScript
 delete <object>.<field>;
 ```
+
+### Promises
+
+- Await on response to execute concurrently
+
+`Promise.all([])`: assign array of requests to variable array of responses

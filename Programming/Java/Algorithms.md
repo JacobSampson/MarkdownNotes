@@ -200,7 +200,3 @@ Queue
 - Collection that supports adding and removing
 - First item added is first item out
 - *Order processing, messaging*
-
-### Hash Tables
-
----

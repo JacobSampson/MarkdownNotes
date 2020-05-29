@@ -3,7 +3,7 @@
 # Corporate Finance
 
 $$
-value of the capital = sum.i>n(cash flow to capital.i / (1 + cost of capital)^i)
+\text{value of the capital} = sum.i>n(\text{cash flow to capital.i} / (1 + cost of capital)^i)
 $$
 
 Treasurer: oversees cash management, credit management, capital expenditures, and financial planning
