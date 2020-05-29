@@ -1,28 +1,30 @@
 # Markdown Notes
 
+### **Author** _Jacob Sampson_ \| **Last Updated** _6/17/2019_
 
-### **Author** *Jacob Sampson* | **Last Updated** *6/17/2019*
-##### *Notes taken on various subjects in Markdown*
-
----
+#### _Notes taken on various subjects in Markdown_
 
 ## **Programming**
 
-[Helpful.md](/Programming/Helpful.md) Various helpful commands and things to remember
+[Helpful.md](programming/helpful.md) Various helpful commands and things to remember
 
 ### **Java**
-[Algorithms.md](Programming/Java/Algorithms.md) Algorithm concepts in Java | ***Added** 1/1/2019*
+
+[Algorithms.md](programming/java/algorithms.md) Algorithm concepts in Java \| **\*Added** 1/1/2019\*
 
 ### **JavaScript**
-[JavaScript.md](/Programming/JavaScript/JavaScript.md) Basics of JavaScript | ***Added** 1/1/2019*
 
-[Knockout.md](/Programming/JavaScript/Knockout.md) Basics of KnockoutJS | ***Added** 1/1/2019*
+[JavaScript.md](programming/javascript/javascript.md) Basics of JavaScript \| **\*Added** 1/1/2019\*
+
+[Knockout.md](https://github.com/JacobSampson/MarkdownNotes/tree/74174ada135d7190544bd662e92d944c021495ad/Programming/JavaScript/Knockout.md) Basics of KnockoutJS \| **\*Added** 1/1/2019\*
 
 ### **Markdown**
-[Markdown.md](/Programming/Markdown/Markdown.md) Outline of the syntax of Markdown | ***Added** 1/1/2019*
+
+[Markdown.md](programming/markdown/markdown.md) Outline of the syntax of Markdown \| **\*Added** 1/1/2019\*
 
 ### **SQL**
-[SQL.md](/Programming/SQL/SQL.md) Notes taken on SQL | ***Added** 1/1/2019*
+
+[SQL.md](programming/sql/sql.md) Notes taken on SQL \| **\*Added** 1/1/2019\*
 
 ### **Web Development**
 
